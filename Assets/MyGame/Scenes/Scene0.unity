@@ -137,7 +137,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 72498856}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00636877c84defd4abc27bb25935ef64, type: 3}
+  m_Script: {fileID: 11500000, guid: d23807d27ea37824d821dece614d2af9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &72498858
@@ -151,7 +151,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &390304597
 GameObject:
@@ -207,7 +207,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Reference for Singletons
+  m_text: Reference for Lazy Singleton
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -275,10 +275,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -338.63757, w: 0}
   m_textInfo:
     textComponent: {fileID: 0}
-    characterCount: 24
+    characterCount: 28
     spriteCount: 0
-    spaceCount: 2
-    wordCount: 3
+    spaceCount: 3
+    wordCount: 4
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -547,7 +547,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 826916398}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00636877c84defd4abc27bb25935ef64, type: 3}
+  m_Script: {fileID: 11500000, guid: d23807d27ea37824d821dece614d2af9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &826916400
@@ -561,7 +561,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &869051605
 GameObject:
@@ -1024,7 +1024,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97f0c206cfd0b8642ae54cefbc12cefd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameData: {fileID: 11400000, guid: 9be7e1d5072359541ba3f4445a97078c, type: 2}
   sceneLoader: {fileID: 773044609}
 --- !u!4 &1405018757
 Transform:
@@ -1063,7 +1062,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1553712007}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00636877c84defd4abc27bb25935ef64, type: 3}
+  m_Script: {fileID: 11500000, guid: d23807d27ea37824d821dece614d2af9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1553712009
@@ -1077,47 +1076,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1760931122
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1760931124}
-  - component: {fileID: 1760931123}
-  m_Layer: 0
-  m_Name: SingletonControllerFixIssue4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1760931123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1760931122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b3345a79be096649bb48e44414b3329, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1760931124
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1760931122}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.6267464, y: 4.0122027, z: 160.30432}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1826891304
 GameObject:
